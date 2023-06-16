@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" app:startDestination="@+id/first">
+	<fragment android:id="@+id/first" android:name="com.companyname.CustomNavigatorIssue.Fragments.FirstFragment">
+		<action android:id="@+id/next_action" app:destination="@+id/second" />
+	</fragment>
+	<customFragment android:id="@+id/second" android:name="com.companyname.CustomNavigatorIssue.Fragments.SecondFragment" />
+</navigation>
